@@ -1,0 +1,63 @@
+\documentclass{article}
+% Notwendige Pakete ------------------------------------------------------------
+\usepackage[paperheight=9cm, paperwidth=29.7cm, top=0.5cm, left=0.5cm, right=0.5cm, bottom=0cm]{geometry}
+\usepackage{multicol}
+%\usepackage[german]{babel}
+\usepackage{graphicx,color}
+\usepackage{fontspec} 
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage[pdftitle={thomasrahlf.com/datendesign V0.5}]{hyperref}
+\usepackage[NewCommands]{ragged2e}
+% Einstellungen -------------------------------------------------------------------
+\setmainfont[Mapping=text-tex]{Lato Regular} 
+\setlength{\parindent}{0in} 
+\setlength{\columnsep}{1.5pc}
+\definecolor{hintergrund}{rgb}{0.8627,0.8627,0.8627}
+\definecolor{text}{gray}{.55}
+\newcommand{\titel}[1]{{\fontspec[Color=808080, Scale=3]{Lato Bold} #1}}
+\newcommand{\tabitem}[1]{{\fontspec[Color=808080, Scale=1.1]{Lato Bold} #1}}
+\newcommand{\tabzahl}[1]{{\fontspec[Color=808080, Scale=1.1]{Lato Bold} #1}}
+\newcommand{\maennerg}[1]{{\fontspec[Color=808080, Scale=1.5]{Symbol Signs} #1}}
+\newcommand{\maennero}[1]{{\fontspec[Color=FF8000, Scale=1.5]{Symbol Signs} #1}}
+\pagecolor{hintergrund}
+\linespread{1.2}
+\begin{document}
+\pagestyle{empty}
+\setlength{\tabcolsep}{0.35cm}
+\footnotesize
+% Inhalt -----------------------------------------------------------------------------
+ \begin{tabular}{p{4.3cm}p{0.1cm}p{4.3cm}p{0.1cm}p{4.3cm}p{0.1cm}p{4.3cm}p{0.1cm}p{4.3cm}p{0.1cm}p{0.1cm}}
+\toprule
+\multicolumn{2}{l}{ \tabitem{Rooms} \hfill \tabzahl{1,70}} & \multicolumn{2}{l}{\tabitem{Employment} \hfill \tabzahl{71,10}} & \multicolumn{2}{l}{\tabitem{Reading} \hfill \tabzahl{497,31}} & \multicolumn{2}{l}{\tabitem{Life} \hfill \tabzahl{80,20}} & \multicolumn{2}{l}{\tabitem{Assault} \hfill \tabzahl{3,60}}& 
+\tabularnewline
+\raggedright Average number of rooms shared per person in a dwelling &  & \% of the working age population (15-64) &  & \raggedright Average reading performance of students aged 15, according to PISA &  & \raggedright Average number of years a person can expect to live &  & \raggedright \% of people who report having been assaulted in the previous year& 
+\tabularnewline
+\addlinespace
+\multicolumn{2}{l}{\tabitem{Dwelling} \hfill \tabzahl{1,20}} & \multicolumn{2}{l}{\tabitem{Unemployment} \hfill \tabzahl{3,40}} & \multicolumn{2}{l}{\tabitem{Air} \hfill \tabzahl{16,21}} & \multicolumn{2}{l}{\tabitem{Health} \hfill \tabzahl{64,70}} & \multicolumn{2}{l}{\tabitem{Long} \hfill \tabzahl{0,05}}& 
+\tabularnewline
+\raggedright \% of people without indoor flushing toilets in their home &  & \raggedright \% of people, aged 15-64, who are not working but have been actively seeking a job for over a year &  &  \raggedright Average concentration of particulate matter (PM10)² &  & \raggedright \% of people reporting their health to be „good or very good“ &  & \raggedright \% of employees working more than fifty hours a week on average& 
+\tabularnewline
+\addlinespace
+\multicolumn{2}{l}{\tabitem{Income} \hfill \tabzahl{27664,72}} & \multicolumn{2}{l}{\tabitem{Network} \hfill \tabzahl{93,50}} & \multicolumn{2}{l}{\tabitem{Consultation} \hfill \tabzahl{4,50}} & \multicolumn{2}{l}{\tabitem{Satisfaction} \hfill \tabzahl{6,70}} & \multicolumn{2}{l}{\tabitem{Children} \hfill \tabzahl{65,93}}& 
+\tabularnewline
+\raggedright Household disposable income¹  & & \raggedright \% of people who have friends or relatives to rely on in case of need &  & \raggedright Composite index, increasing with the number of key elements of formal consultation processes &  & \raggedright Average self-evaluation of life satisfaction, on a scale from 0 to 10 &  & \raggedright \% of mothers with school-age children who have a paid job& 
+\tabularnewline
+\addlinespace
+\multicolumn{2}{l}{\tabitem{Wealth} \hfill \tabzahl{45113,30}} & \multicolumn{2}{l}{\tabitem{Educational} \hfill \tabzahl{85,33}} & \multicolumn{2}{l}{\tabitem{Voter} \hfill \tabzahl{77,65}} & \multicolumn{2}{l}{\tabitem{Homicide} \hfill \tabzahl{0,80}} & \multicolumn{2}{l}{\tabitem{Time} \hfill \tabzahl{16,14}}& 
+\tabularnewline
+\raggedright Household financial wealth¹ &  & \raggedright \% of people, aged 15-64, having at least an upper-secondary (high-school) degree &  & \raggedright Number of people voting as \% of the registered population  &  & \raggedright Average number of reported homicides per 100 000 people &  & \raggedright Average number of hours per day spent on leisure and personal care& 
+\tabularnewline
+\bottomrule
+¹\scriptsize USD (PPPs adjusted) & & & & ²\scriptsize \raggedright In cities with population larger than 100 000, measured in micrograms  per cubic meter. & &  \multicolumn{4}{l}{  \hfill Values have been normalised. Source: oecdbetterlifeindex.org/}
+\end{tabular}
+\end{document}
+
+% ————————————————————————————————————————————————
+
+
+
+
+
+
+
